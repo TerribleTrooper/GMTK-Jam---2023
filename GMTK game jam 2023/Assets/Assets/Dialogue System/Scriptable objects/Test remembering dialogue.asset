@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aeca6d36008112844a16d8f70ab681f5, type: 3}
+  m_Name: Test remembering dialogue
+  m_EditorClassIdentifier: 
+  characterName: Test guy
+  repeatLastEntry: 1
+  sentence:
+  - wait: 0.75
+    dialogueEntry:
+    - wait: 0.1
+      text: 'Sentence 0, entry 0
+
+        (can''t skip this entry)'
+      typeSpeed: 0.1
+      underscoreWaitTime: 0.25
+      type: 0
+      jumpEntries: 0
+      canSkip: 0
+      answer1:
+        answer: 
+        jumpEntries: 0
+      answer2:
+        answer: 
+        jumpEntries: 0
+      dialogueEvent:
+        when: 0
+        invokeEvent: 0
+      isLastMessage: 0
+    - wait: 0.1
+      text: Sentence 0, entry 1
+      typeSpeed: 0.05
+      underscoreWaitTime: 0.25
+      type: 0
+      jumpEntries: 0
+      canSkip: 1
+      answer1:
+        answer: 
+        jumpEntries: 0
+      answer2:
+        answer: 
+        jumpEntries: 0
+      dialogueEvent:
+        when: 0
+        invokeEvent: 0
+      isLastMessage: 0
+  - wait: 0.75
+    dialogueEntry:
+    - wait: 0.1
+      text: 'Sentence 1, entry 0
+
+        (will jump over s1, e1)'
+      typeSpeed: 0.05
+      underscoreWaitTime: 0.25
+      type: 0
+      jumpEntries: 1
+      canSkip: 1
+      answer1:
+        answer: 
+        jumpEntries: 0
+      answer2:
+        answer: 
+        jumpEntries: 0
+      dialogueEvent:
+        when: 0
+        invokeEvent: 0
+      isLastMessage: 0
+    - wait: 0.1
+      text: Sentence 1, entry 1
+      typeSpeed: 0.05
+      underscoreWaitTime: 0.25
+      type: 0
+      jumpEntries: 0
+      canSkip: 1
+      answer1:
+        answer: 
+        jumpEntries: 0
+      answer2:
+        answer: 
+        jumpEntries: 0
+      dialogueEvent:
+        when: 0
+        invokeEvent: 0
+      isLastMessage: 0
+    - wait: 0.1
+      text: Sentence 1, entry 2
+      typeSpeed: 0.05
+      underscoreWaitTime: 0.25
+      type: 0
+      jumpEntries: 0
+      canSkip: 1
+      answer1:
+        answer: 
+        jumpEntries: 0
+      answer2:
+        answer: 
+        jumpEntries: 0
+      dialogueEvent:
+        when: 0
+        invokeEvent: 0
+      isLastMessage: 0
