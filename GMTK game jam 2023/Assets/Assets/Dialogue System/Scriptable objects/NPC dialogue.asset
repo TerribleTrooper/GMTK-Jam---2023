@@ -1,0 +1,239 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aeca6d36008112844a16d8f70ab681f5, type: 3}
+  m_Name: NPC dialogue
+  m_EditorClassIdentifier: 
+  characterName: NPC
+  repeatLastEntry: 1
+  sentence:
+  - wait: 0.75
+    dialogueEntry:
+    - wait: 0.1
+      text: Hello,_ My name is <color=blue>Vlad</color>!
+      typeSpeed: 0.05
+      underscoreWaitTime: 0.25
+      type: 0
+      answer1:
+        answer: 
+        jumpEntries: 0
+      answer2:
+        answer: 
+        jumpEntries: 0
+      dialogueEvent:
+        when: 0
+        invokeEvent: 0
+      isLastMessage: 0
+    - wait: 0.1
+      text: I've worked on _|this| dialogue system for 2_ |<size=125%>WEEKS</size>|
+        now.
+      typeSpeed: 0.05
+      underscoreWaitTime: 0.25
+      type: 0
+      answer1:
+        answer: 
+        jumpEntries: 0
+      answer2:
+        answer: 
+        jumpEntries: 0
+      dialogueEvent:
+        when: 0
+        invokeEvent: 0
+      isLastMessage: 0
+    - wait: 0.1
+      text: It has lots of functionalities such as working with <color=purple>TextMeshPro's</color>
+        <color=#555522FF><i>rich text tags</i></color>
+      typeSpeed: 0.05
+      underscoreWaitTime: 0.25
+      type: 0
+      answer1:
+        answer: What's that?
+        jumpEntries: 0
+      answer2:
+        answer: Ok
+        jumpEntries: 1
+      dialogueEvent:
+        when: 0
+        invokeEvent: 0
+      isLastMessage: 0
+    - wait: 0.1
+      text: Basically,_ you can set the color, size, or font of the text.__ You can
+        also make <b>bold</b>, <i>italic</i>, <u>underlined</u> and <s>strikethrough</s>
+        text.
+      typeSpeed: 0.05
+      underscoreWaitTime: 0.25
+      type: 0
+      answer1:
+        answer: 
+        jumpEntries: 0
+      answer2:
+        answer: 
+        jumpEntries: 0
+      dialogueEvent:
+        when: 0
+        invokeEvent: 0
+      isLastMessage: 0
+    - wait: 0.1
+      text: You can also use underscore make a short break from typing the text__
+        l_i_k_e_ t_h_i_s_...
+      typeSpeed: 0.05
+      underscoreWaitTime: 0.25
+      type: 0
+      answer1:
+        answer: 
+        jumpEntries: 0
+      answer2:
+        answer: 
+        jumpEntries: 0
+      dialogueEvent:
+        when: 0
+        invokeEvent: 0
+      isLastMessage: 0
+    - wait: 0.1
+      text: And use a straight line_._._. the one on the right of the closed bracket
+        on your keyboard, to type text__ |like|__ |this|.
+      typeSpeed: 0.05
+      underscoreWaitTime: 0.15
+      type: 0
+      answer1:
+        answer: 
+        jumpEntries: 0
+      answer2:
+        answer: 
+        jumpEntries: 0
+      dialogueEvent:
+        when: 0
+        invokeEvent: 0
+      isLastMessage: 0
+    - wait: 0.1
+      text: You can also set the word typer to type words at a time instead of letters
+        at a time.
+      typeSpeed: 0.3
+      underscoreWaitTime: 0.25
+      type: 1
+      answer1:
+        answer: Tell me more!
+        jumpEntries: 0
+      answer2:
+        answer: What else?
+        jumpEntries: 0
+      dialogueEvent:
+        when: 0
+        invokeEvent: 0
+      isLastMessage: 0
+    - wait: 0.1
+      text: As you saw, dialogue can have answers to it.
+      typeSpeed: 0.05
+      underscoreWaitTime: 0.25
+      type: 0
+      answer1:
+        answer: 
+        jumpEntries: 0
+      answer2:
+        answer: 
+        jumpEntries: 0
+      dialogueEvent:
+        when: 0
+        invokeEvent: 0
+      isLastMessage: 0
+    - wait: 0.1
+      text: 'And,__ the most important of all,__ it has events built in!!!__ Check
+        it out: <size=125%>CONFETTI!</size>___'
+      typeSpeed: 0.05
+      underscoreWaitTime: 0.25
+      type: 0
+      answer1:
+        answer: 
+        jumpEntries: 0
+      answer2:
+        answer: 
+        jumpEntries: 0
+      dialogueEvent:
+        when: 3
+        invokeEvent: 0
+      isLastMessage: 0
+    - wait: 0.1
+      text: Talk to me more if you want to hear about the more tehnical side of stuff.
+      typeSpeed: 0.05
+      underscoreWaitTime: 0.25
+      type: 1
+      answer1:
+        answer: 
+        jumpEntries: 0
+      answer2:
+        answer: 
+        jumpEntries: 0
+      dialogueEvent:
+        when: 0
+        invokeEvent: 0
+      isLastMessage: 0
+  - wait: 0.75
+    dialogueEntry:
+    - wait: 0.1
+      text: The dialogue system uses sentences and entries to work. This is an entry...
+      typeSpeed: 0.05
+      underscoreWaitTime: 0.25
+      type: 0
+      answer1:
+        answer: 
+        jumpEntries: 0
+      answer2:
+        answer: 
+        jumpEntries: 0
+      dialogueEvent:
+        when: 0
+        invokeEvent: 0
+      isLastMessage: 0
+    - wait: 0.1
+      text: ...And this is another.__ So think of them as pages of your dialogue.
+      typeSpeed: 0.05
+      underscoreWaitTime: 0.15
+      type: 0
+      answer1:
+        answer: 
+        jumpEntries: 0
+      answer2:
+        answer: 
+        jumpEntries: 0
+      dialogueEvent:
+        when: 0
+        invokeEvent: 0
+      isLastMessage: 0
+    - wait: 0.1
+      text: And sentences are like the books of your dialogue which hold the pages.
+      typeSpeed: 0.05
+      underscoreWaitTime: 0.25
+      type: 0
+      answer1:
+        answer: 
+        jumpEntries: 0
+      answer2:
+        answer: 
+        jumpEntries: 0
+      dialogueEvent:
+        when: 0
+        invokeEvent: 0
+      isLastMessage: 0
+    - wait: 0.1
+      text: ._._._That's it. I hope that I explained everything._ |Bye|_!
+      typeSpeed: 0.05
+      underscoreWaitTime: 0.2
+      type: 0
+      answer1:
+        answer: 
+        jumpEntries: 0
+      answer2:
+        answer: 
+        jumpEntries: 0
+      dialogueEvent:
+        when: 0
+        invokeEvent: 0
+      isLastMessage: 0
