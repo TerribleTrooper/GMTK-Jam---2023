@@ -134,7 +134,6 @@ public class HeroKnight : MonoBehaviour
     }
     void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("jk");
         if (other.tag == "Celling")
         {
             transform.eulerAngles = new Vector3(-180, 0, 0);
